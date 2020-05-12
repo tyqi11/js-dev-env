@@ -61,6 +61,24 @@ Generate random data: faker.js, chance.js, randexp.js
 
 Server Data via API: JSON Server
 
+## Project Structure
+
+### JS belongs in a .js file
+
+Not in a `<script></script>`.
+
+Inline lose all the benefits.
+
+### Consider organizing by feature
+
+### Extract logic to POJOs
+
+Plain Old JavaScript Objects
+
+Pure logic
+
+No framework-specific code
+
 ## More tools
 
 * Development webserver: Browsersync
