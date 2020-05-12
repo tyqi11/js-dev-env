@@ -1,6 +1,8 @@
 # JavaScript Development Environment Starter Kit
 JavaScript Development Environment from Pluralsight Course with Cory House
 
+This is a starter kit for building node.js projects, with ES6 Module format, Babel as the transpiler, Webpack as the bundler, ESLint as the linter, 
+
 ## Transpilers
 
 ### Babel
@@ -17,7 +19,35 @@ Safer refactoring
 
 ### Elm
 
+## Bundlers
 
+### browserify
+
+bundle npm packages for the web
+
+### webpack
+
+bundles more than just JS
+
+import CSS, images, etc like JS
+
+built-in hot-reloading web server
+
+### rollup
+
+**tree shaking**
+
+**faster** loading production code
+
+quite new
+
+### JSPM
+
+uses SystemJS, a universal module loader
+
+can load modules at runtime
+
+can install from npm, git
 
 ## More tools
 
@@ -52,4 +82,10 @@ Safer refactoring
 
     * `npm install -g surge`
     * `surge`
+
+
+
+
+
+difficulties:
 
