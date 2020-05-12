@@ -1,7 +1,7 @@
 # JavaScript Development Environment Starter Kit
 JavaScript Development Environment from Pluralsight Course with Cory House
 
-This is a starter kit for building node.js projects, with ES6 Module format, Babel as the transpiler, Webpack as the bundler, ESLint as the linter, 
+This is a starter kit for building node.js projects, with ES6 Module format, Babel as the transpiler, Webpack as the bundler, ESLint as the linter, Travis-CI as the continuous integration tool, 
 
 ## Transpilers
 
@@ -48,6 +48,18 @@ uses SystemJS, a universal module loader
 can load modules at runtime
 
 can install from npm, git
+
+## HTTP Calls
+
+Why centralize API calls?
+
+### Mocking HTTP
+
+Declare our schema: JSON Schema Faker
+
+Generate random data: faker.js, chance.js, randexp.js
+
+Server Data via API: JSON Server
 
 ## More tools
 
